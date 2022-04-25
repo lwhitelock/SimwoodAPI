@@ -15,8 +15,10 @@ function Invoke-SimwoodRequest{
         try {
 			if (($Method -eq "put") -or ($Method -eq "post") -or ($Method -eq "delete")) {
                 Write-Verbose "Body: $Body"
+				Write-Verbose "URI : $($Script:SimwoodBaseURL + $Resource)"
 				$Response = Invoke-WebRequest -Credential $script:SimwoodCred -method $method -uri ($Script:SimwoodBaseURL + $Resource) -ContentType 'application/json' -body $Body -ea stop
 				Write-Verbose "Content: $($Response.Content)"
+				
 				$Result = $Response | ConvertFrom-Json -depth 100
 			}
 			else {
