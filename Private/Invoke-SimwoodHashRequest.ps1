@@ -17,13 +17,14 @@ function Invoke-SimwoodHashRequest {
                 }
                 else {
                     Write-Verbose "204 Report not ready trying again in 2 seconds"
+                    Write-Verbose "Response $($Response)"
                     Start-Sleep 2
                     $AttemptNo++
                     $Result = Invoke-SimwoodHashRequest -Hash $Hash -AttemptNo $AttemptNo
                 }
             }
             catch {
-                Write-Verbose "404 Report not ready trying again in 2 seconds"
+                Write-Verbose "Report error trying again in 2 seconds: $_"
                     Start-Sleep 2
                     $AttemptNo++
                     $Result = Invoke-SimwoodHashRequest -Hash $Hash -AttemptNo $AttemptNo            
