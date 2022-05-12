@@ -58,7 +58,7 @@ $ProcessedNumbers | where-object {!$_."999Name"} | format-table
 ```
 
 
-### Retriving Invoices
+### Retrieving Invoices
 ```
 Get-SimwoodInvoices -InvoiceType all
 Get-SimwoodInvoices -InvoiceType paid
