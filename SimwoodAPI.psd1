@@ -21,7 +21,7 @@
     GUID              = '7d5c7027-dddd-497d-b8ae-bcc5d688484e'
 
     # Author of this module
-    Author            = 'Luke.Whitelock'
+    Author            = 'Luke Whitelock'
 
     # Company or vendor of this module
     CompanyName       = 'IQ in IT / mspp.io'
@@ -30,7 +30,7 @@
     Copyright         = '(c) Luke.Whitelock. All rights reserved.'
 
     # Description of the functionality provided by this module
-    # Description = ''
+    Description = 'This is a powershell module wrapper for the Simwood API'
 
     # Minimum version of the PowerShell engine required by this module
     # PowerShellVersion = ''
