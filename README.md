@@ -502,7 +502,7 @@ Remove-SimwoodNumberSMSConfig -Number "447234567890"
 ```
 Get-SimwoodNumber999Config -Number "447234567890"
 # Business
-Set-SimwoodNumber999Config -Number "447234567890" -Name "IQ in IT" -BusSuffix "Ltd" -Premises "Example House, 123" -Thoroughfare "London Road" -Locality "Example Town" -Postcode "AB1 2CD"
+Set-SimwoodNumber999Config -Number "447234567890" -Name "Example Company" -BusSuffix "Ltd" -Premises "Example House, 123" -Thoroughfare "London Road" -Locality "Example Town" -Postcode "AB1 2CD"
 # Individual
 Set-SimwoodNumber999Config -Number "447234567890" -Title "Mr" -Forename "Luke" -Name "Whitelock" -Premises "Example House, 123" -Thoroughfare "London Road" -Locality "Example Town" -Postcode "AB1 2CD"
 ```
