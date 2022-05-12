@@ -134,7 +134,22 @@
         'Get-SimwoodAllocatedNumbers',
         'New-SimwoodAllocatedNumber',
         'Remove-SimwoodAllocatedNumber',
-        'Get-SimwoodAllocatedNumberLastCall'
+        'Get-SimwoodAllocatedNumberLastCall',
+        'Get-SimwoodNumberConfig',
+        'Set-SimwoodNumberConfig',
+        'Get-SimwoodNumberTrunk',
+        'Set-SimwoodNumberTrunk',
+        'Remove-SimwoodNumberTrunk',
+        'Remove-SimwoodNumberConfig',
+        'Remove-SimwoodNumberSMSConfig',
+        'Get-SimwoodNumberSMSConfig',
+        'Set-SimwoodNumberSMSConfig',
+        'Get-SimwoodNumber999Config',
+        'Set-SimwoodNumber999Config',
+        'Get-SimwoodNumberValidate',
+        'Get-SimwoodNumberLookup',
+        'Get-SimwoodPorts',
+        'New-SimwoodSMS'
     )
 
     # Cmdlets to export from this module, for best performance, do not use wildcards and do not delete the entry, use an empty array if there are no cmdlets to export.
